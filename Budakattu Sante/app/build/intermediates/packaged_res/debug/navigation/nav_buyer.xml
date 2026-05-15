@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_buyer"
+    app:startDestination="@id/buyerHomeFragment">
+
+    <fragment
+        android:id="@+id/buyerHomeFragment"
+        android:name="com.budakattusante.ui.buyer.BuyerHomeFragment"
+        android:label="Home">
+        <action
+            android:id="@+id/action_home_to_productDetail"
+            app:destination="@id/productDetailFragment" />
+        <action
+            android:id="@+id/action_home_to_productList"
+            app:destination="@id/productListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/productListFragment"
+        android:name="com.budakattusante.ui.buyer.ProductListFragment"
+        android:label="Browse Products">
+        <action
+            android:id="@+id/action_list_to_productDetail"
+            app:destination="@id/productDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/productDetailFragment"
+        android:name="com.budakattusante.ui.buyer.ProductDetailFragment"
+        android:label="Product Details">
+        <argument
+            android:name="productId"
+            app:argType="integer"
+            android:defaultValue="-1" />
+        <action
+            android:id="@+id/action_detail_to_preorder"
+            app:destination="@id/preorderFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/preorderFragment"
+        android:name="com.budakattusante.ui.buyer.PreorderFragment"
+        android:label="Preorder">
+        <argument
+            android:name="productId"
+            app:argType="integer"
+            android:defaultValue="-1" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/orderHistoryFragment"
+        android:name="com.budakattusante.ui.buyer.OrderHistoryFragment"
+        android:label="My Orders" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.budakattusante.ui.buyer.ProfileFragment"
+        android:label="Profile" />
+
+</navigation>

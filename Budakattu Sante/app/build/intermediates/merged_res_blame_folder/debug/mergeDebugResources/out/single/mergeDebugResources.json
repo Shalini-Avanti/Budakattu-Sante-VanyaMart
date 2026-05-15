@@ -1,0 +1,174 @@
+[
+    {
+        "merged": "com.budakattusante.app-debug-52:/layout_item_product.xml.flat",
+        "source": "com.budakattusante.app-main-54:/layout/item_product.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/layout_fragment_add_product.xml.flat",
+        "source": "com.budakattusante.app-main-54:/layout/fragment_add_product.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/mipmap-xhdpi_ic_launcher_background.xml.flat",
+        "source": "com.budakattusante.app-main-54:/mipmap-xhdpi/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/layout_fragment_leader_dashboard.xml.flat",
+        "source": "com.budakattusante.app-main-54:/layout/fragment_leader_dashboard.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/drawable_splash_circle.xml.flat",
+        "source": "com.budakattusante.app-main-54:/drawable/splash_circle.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/drawable_ic_leaf.xml.flat",
+        "source": "com.budakattusante.app-main-54:/drawable/ic_leaf.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/mipmap-xxxhdpi_ic_launcher_background.xml.flat",
+        "source": "com.budakattusante.app-main-54:/mipmap-xxxhdpi/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/layout_activity_main.xml.flat",
+        "source": "com.budakattusante.app-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/drawable_splash_ring.xml.flat",
+        "source": "com.budakattusante.app-main-54:/drawable/splash_ring.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/drawable_ic_analytics.xml.flat",
+        "source": "com.budakattusante.app-main-54:/drawable/ic_analytics.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.budakattusante.app-main-54:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/menu_menu_buyer_bottom_nav.xml.flat",
+        "source": "com.budakattusante.app-main-54:/menu/menu_buyer_bottom_nav.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/layout_item_order.xml.flat",
+        "source": "com.budakattusante.app-main-54:/layout/item_order.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/drawable_ic_add.xml.flat",
+        "source": "com.budakattusante.app-main-54:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/layout_fragment_product_detail.xml.flat",
+        "source": "com.budakattusante.app-main-54:/layout/fragment_product_detail.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/drawable_ic_orders.xml.flat",
+        "source": "com.budakattusante.app-main-54:/drawable/ic_orders.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/drawable_ic_logout.xml.flat",
+        "source": "com.budakattusante.app-main-54:/drawable/ic_logout.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/drawable_ic_manage.xml.flat",
+        "source": "com.budakattusante.app-main-54:/drawable/ic_manage.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/menu_menu_leader_bottom_nav.xml.flat",
+        "source": "com.budakattusante.app-main-54:/menu/menu_leader_bottom_nav.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/layout_activity_login.xml.flat",
+        "source": "com.budakattusante.app-main-54:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/layout_activity_splash.xml.flat",
+        "source": "com.budakattusante.app-main-54:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/layout_fragment_preorder.xml.flat",
+        "source": "com.budakattusante.app-main-54:/layout/fragment_preorder.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/layout_fragment_product_list.xml.flat",
+        "source": "com.budakattusante.app-main-54:/layout/fragment_product_list.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.budakattusante.app-main-54:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/layout_fragment_analytics.xml.flat",
+        "source": "com.budakattusante.app-main-54:/layout/fragment_analytics.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.budakattusante.app-main-54:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/layout_item_manage_product.xml.flat",
+        "source": "com.budakattusante.app-main-54:/layout/item_manage_product.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/mipmap-hdpi_ic_launcher_background.xml.flat",
+        "source": "com.budakattusante.app-main-54:/mipmap-hdpi/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/drawable_ic_play.xml.flat",
+        "source": "com.budakattusante.app-main-54:/drawable/ic_play.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/layout_fragment_manage_products.xml.flat",
+        "source": "com.budakattusante.app-main-54:/layout/fragment_manage_products.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/layout_activity_leader.xml.flat",
+        "source": "com.budakattusante.app-main-54:/layout/activity_leader.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/drawable_ic_home.xml.flat",
+        "source": "com.budakattusante.app-main-54:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/layout_fragment_order_history.xml.flat",
+        "source": "com.budakattusante.app-main-54:/layout/fragment_order_history.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/drawable_ic_browse.xml.flat",
+        "source": "com.budakattusante.app-main-54:/drawable/ic_browse.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/layout_activity_register.xml.flat",
+        "source": "com.budakattusante.app-main-54:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/mipmap-xxhdpi_ic_launcher_background.xml.flat",
+        "source": "com.budakattusante.app-main-54:/mipmap-xxhdpi/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/drawable_ic_profile.xml.flat",
+        "source": "com.budakattusante.app-main-54:/drawable/ic_profile.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.budakattusante.app-main-54:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/layout_fragment_buyer_home.xml.flat",
+        "source": "com.budakattusante.app-main-54:/layout/fragment_buyer_home.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/drawable_ic_stop.xml.flat",
+        "source": "com.budakattusante.app-main-54:/drawable/ic_stop.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/mipmap-mdpi_ic_launcher_background.xml.flat",
+        "source": "com.budakattusante.app-main-54:/mipmap-mdpi/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/layout_fragment_profile.xml.flat",
+        "source": "com.budakattusante.app-main-54:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-debug-52:/drawable_ic_dashboard.xml.flat",
+        "source": "com.budakattusante.app-main-54:/drawable/ic_dashboard.xml"
+    }
+]

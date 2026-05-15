@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#000000</color>
+    <color name="brown">#795548</color>
+    <color name="brown_dark">#4E342E</color>
+    <color name="brown_light">#D7CCC8</color>
+    <color name="cat_forest">#E8F5E9</color>
+    <color name="cat_grains">#FFF3E0</color>
+    <color name="cat_handicraft">#EFEBE9</color>
+    <color name="cat_herbal">#E1F5FE</color>
+    <color name="cat_honey">#FFFDE7</color>
+    <color name="cream">#FFF8E1</color>
+    <color name="cream_dark">#FFECB3</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="error">#B00020</color>
+    <color name="forest_green">#2E7D32</color>
+    <color name="forest_green_container">#C8E6C9</color>
+    <color name="forest_green_dark">#1B5E20</color>
+    <color name="forest_green_light">#A5D6A7</color>
+    <color name="honey_gold">#FFA000</color>
+    <color name="honey_gold_dark">#FF6F00</color>
+    <color name="honey_gold_light">#FFE082</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_radius">12dp</dimen>
+    <dimen name="product_image_height">160dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+    <dimen name="text_body">14sp</dimen>
+    <dimen name="text_headline">24sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_subtitle">16sp</dimen>
+    <dimen name="text_title">20sp</dimen>
+    <string name="add_product">Add Product</string>
+    <string name="add_to_cart">Preorder Now</string>
+    <string name="all_products">All Products</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="analytics">Analytics</string>
+    <string name="app_name">Budakattu Sante</string>
+    <string name="browse_products">Browse All Products</string>
+    <string name="buyer">Buyer</string>
+    <string name="categories">Categories</string>
+    <string name="category_label">Category</string>
+    <string name="confirm_order">Confirm Preorder</string>
+    <string name="cooperative_leader">Cooperative Leader</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="default_admin_hint">Leader: 9999999999 / admin123</string>
+    <string name="delete">Delete</string>
+    <string name="description">Description</string>
+    <string name="dont_have_account">Don\'t have an account? Register</string>
+    <string name="edit">Edit</string>
+    <string name="family_name">Tribal Family Name</string>
+    <string name="featured_products">Featured Products</string>
+    <string name="full_name">Full Name</string>
+    <string name="in_stock">In Stock</string>
+    <string name="listen_description">Listen to Description</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="low_stock">Low Stock</string>
+    <string name="low_stock_items">Low Stock Items</string>
+    <string name="manage_products">Manage Products</string>
+    <string name="market_price">Market Price: ₹%s</string>
+    <string name="msp">MSP Price (₹)</string>
+    <string name="msp_price">MSP: ₹%s</string>
+    <string name="no_orders">No orders yet</string>
+    <string name="order_confirmed">Order Confirmed!</string>
+    <string name="order_date">Date</string>
+    <string name="order_history">My Orders</string>
+    <string name="order_status">Status</string>
+    <string name="out_of_stock">Harvest Limit Reached</string>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="preorder">Preorder</string>
+    <string name="price">Price (₹)</string>
+    <string name="product_name">Product Name</string>
+    <string name="profile">Profile</string>
+    <string name="quantity">Quantity</string>
+    <string name="register">Register</string>
+    <string name="save_product">Save Product</string>
+    <string name="search_products">Search products…</string>
+    <string name="season">Season</string>
+    <string name="select_role">Select Role</string>
+    <string name="stock_available">%d units available</string>
+    <string name="stock_quantity">Stock Quantity</string>
+    <string name="stop_audio">Stop Audio</string>
+    <string name="tagline">Tribal Marketplace</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="total_earnings">Total Earnings</string>
+    <string name="total_orders">Total Orders</string>
+    <string name="total_products">Total Products</string>
+    <string name="tribal_family">Tribal Family</string>
+    <string name="village">Village Name</string>
+    <string name="village_label">Village</string>
+    <string name="welcome_back">Welcome back</string>
+    <style name="CardStyle" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+    <style name="PrimaryButton" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/forest_green</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    <style name="SecondaryButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/forest_green</item>
+        <item name="strokeColor">@color/forest_green</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    <style name="Theme.BudakattsuSante" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/forest_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/forest_green_container</item>
+        <item name="colorOnPrimaryContainer">@color/forest_green_dark</item>
+        <item name="colorSecondary">@color/brown</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorTertiary">@color/honey_gold</item>
+        <item name="colorOnTertiary">@color/black</item>
+        <item name="android:colorBackground">@color/cream</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorError">@color/error</item>
+        <item name="android:statusBarColor">@color/forest_green</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">false</item>
+    </style>
+    <style name="Theme.BudakattsuSante.Splash" parent="Theme.BudakattsuSante">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@color/forest_green_dark</item>
+    </style>
+</resources>

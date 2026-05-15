@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/leaderDashboardFragment"
+        android:icon="@drawable/ic_dashboard"
+        android:title="Dashboard" />
+    <item
+        android:id="@+id/addProductFragment"
+        android:icon="@drawable/ic_add"
+        android:title="Add" />
+    <item
+        android:id="@+id/manageProductsFragment"
+        android:icon="@drawable/ic_manage"
+        android:title="Manage" />
+    <item
+        android:id="@+id/analyticsFragment"
+        android:icon="@drawable/ic_analytics"
+        android:title="Analytics" />
+</menu>

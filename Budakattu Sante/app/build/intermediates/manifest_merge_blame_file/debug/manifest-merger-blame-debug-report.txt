@@ -1,0 +1,186 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.budakattusante"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.12.0] C:\Users\vishw\.gradle\caches\transforms-3\b45e2d6df1a51425a46eab66aaaa4fcb\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.budakattusante.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.12.0] C:\Users\vishw\.gradle\caches\transforms-3\b45e2d6df1a51425a46eab66aaaa4fcb\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.12.0] C:\Users\vishw\.gradle\caches\transforms-3\b45e2d6df1a51425a46eab66aaaa4fcb\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.budakattusante.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.12.0] C:\Users\vishw\.gradle\caches\transforms-3\b45e2d6df1a51425a46eab66aaaa4fcb\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.12.0] C:\Users\vishw\.gradle\caches\transforms-3\b45e2d6df1a51425a46eab66aaaa4fcb\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:4:5-44:19
+18        android:name="com.budakattusante.BudakattsuSanteApp"
+18-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:5:9-43
+19        android:allowBackup="true"
+19-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:6:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.12.0] C:\Users\vishw\.gradle\caches\transforms-3\b45e2d6df1a51425a46eab66aaaa4fcb\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:7:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:8:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:9:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:10:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.BudakattsuSante" >
+28-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:11:9-53
+29
+30        <!-- Splash Screen -->
+31        <activity
+31-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:14:9-23:20
+32            android:name="com.budakattusante.ui.splash.SplashActivity"
+32-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:15:13-53
+33            android:exported="true"
+33-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:16:13-36
+34            android:noHistory="true"
+34-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:17:13-37
+35            android:theme="@style/Theme.BudakattsuSante.Splash" >
+35-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:18:13-64
+36            <intent-filter>
+36-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:19:13-22:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:20:17-69
+37-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:20:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:21:17-77
+39-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:21:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <!-- Auth Screens -->
+44        <activity
+44-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:26:9-28:40
+45            android:name="com.budakattusante.ui.auth.LoginActivity"
+45-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:27:13-50
+46            android:exported="false" />
+46-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:28:13-37
+47        <activity
+47-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:30:9-32:40
+48            android:name="com.budakattusante.ui.auth.RegisterActivity"
+48-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:31:13-53
+49            android:exported="false" />
+49-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:32:13-37
+50
+51        <!-- Buyer Main -->
+52        <activity
+52-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:35:9-37:40
+53            android:name="com.budakattusante.ui.MainActivity"
+53-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:36:13-44
+54            android:exported="false" />
+54-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:37:13-37
+55
+56        <!-- Leader Main -->
+57        <activity
+57-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:40:9-42:40
+58            android:name="com.budakattusante.ui.LeaderActivity"
+58-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:41:13-46
+59            android:exported="false" />
+59-->C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\src\main\AndroidManifest.xml:42:13-37
+60
+61        <provider
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vishw\.gradle\caches\transforms-3\0378e295eb2c9695d88ff484cab737c9\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+62            android:name="androidx.startup.InitializationProvider"
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vishw\.gradle\caches\transforms-3\0378e295eb2c9695d88ff484cab737c9\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+63            android:authorities="com.budakattusante.androidx-startup"
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vishw\.gradle\caches\transforms-3\0378e295eb2c9695d88ff484cab737c9\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+64            android:exported="false" >
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vishw\.gradle\caches\transforms-3\0378e295eb2c9695d88ff484cab737c9\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+65            <meta-data
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vishw\.gradle\caches\transforms-3\0378e295eb2c9695d88ff484cab737c9\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vishw\.gradle\caches\transforms-3\0378e295eb2c9695d88ff484cab737c9\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+67                android:value="androidx.startup" />
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vishw\.gradle\caches\transforms-3\0378e295eb2c9695d88ff484cab737c9\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+68            <meta-data
+68-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vishw\.gradle\caches\transforms-3\7f050eeae9f0b33cb608480014408a36\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+69-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vishw\.gradle\caches\transforms-3\7f050eeae9f0b33cb608480014408a36\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+70                android:value="androidx.startup" />
+70-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vishw\.gradle\caches\transforms-3\7f050eeae9f0b33cb608480014408a36\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+71            <meta-data
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vishw\.gradle\caches\transforms-3\f7af8e2e81490186bd361f6c627a8e0a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vishw\.gradle\caches\transforms-3\f7af8e2e81490186bd361f6c627a8e0a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+73                android:value="androidx.startup" />
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vishw\.gradle\caches\transforms-3\f7af8e2e81490186bd361f6c627a8e0a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+74        </provider>
+75
+76        <uses-library
+76-->[androidx.window:window:1.0.0] C:\Users\vishw\.gradle\caches\transforms-3\1e8272f7afcfbd8500e8fc3928d0abf4\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+77            android:name="androidx.window.extensions"
+77-->[androidx.window:window:1.0.0] C:\Users\vishw\.gradle\caches\transforms-3\1e8272f7afcfbd8500e8fc3928d0abf4\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+78            android:required="false" />
+78-->[androidx.window:window:1.0.0] C:\Users\vishw\.gradle\caches\transforms-3\1e8272f7afcfbd8500e8fc3928d0abf4\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+79        <uses-library
+79-->[androidx.window:window:1.0.0] C:\Users\vishw\.gradle\caches\transforms-3\1e8272f7afcfbd8500e8fc3928d0abf4\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+80            android:name="androidx.window.sidecar"
+80-->[androidx.window:window:1.0.0] C:\Users\vishw\.gradle\caches\transforms-3\1e8272f7afcfbd8500e8fc3928d0abf4\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+81            android:required="false" />
+81-->[androidx.window:window:1.0.0] C:\Users\vishw\.gradle\caches\transforms-3\1e8272f7afcfbd8500e8fc3928d0abf4\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+82
+83        <service
+83-->[androidx.room:room-runtime:2.6.1] C:\Users\vishw\.gradle\caches\transforms-3\bccbe4d119a09971b6583c34b7115c37\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+84            android:name="androidx.room.MultiInstanceInvalidationService"
+84-->[androidx.room:room-runtime:2.6.1] C:\Users\vishw\.gradle\caches\transforms-3\bccbe4d119a09971b6583c34b7115c37\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+85            android:directBootAware="true"
+85-->[androidx.room:room-runtime:2.6.1] C:\Users\vishw\.gradle\caches\transforms-3\bccbe4d119a09971b6583c34b7115c37\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+86            android:exported="false" />
+86-->[androidx.room:room-runtime:2.6.1] C:\Users\vishw\.gradle\caches\transforms-3\bccbe4d119a09971b6583c34b7115c37\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+87
+88        <receiver
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vishw\.gradle\caches\transforms-3\f7af8e2e81490186bd361f6c627a8e0a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+89            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vishw\.gradle\caches\transforms-3\f7af8e2e81490186bd361f6c627a8e0a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+90            android:directBootAware="false"
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vishw\.gradle\caches\transforms-3\f7af8e2e81490186bd361f6c627a8e0a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+91            android:enabled="true"
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vishw\.gradle\caches\transforms-3\f7af8e2e81490186bd361f6c627a8e0a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+92            android:exported="true"
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vishw\.gradle\caches\transforms-3\f7af8e2e81490186bd361f6c627a8e0a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+93            android:permission="android.permission.DUMP" >
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vishw\.gradle\caches\transforms-3\f7af8e2e81490186bd361f6c627a8e0a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vishw\.gradle\caches\transforms-3\f7af8e2e81490186bd361f6c627a8e0a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+95                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vishw\.gradle\caches\transforms-3\f7af8e2e81490186bd361f6c627a8e0a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vishw\.gradle\caches\transforms-3\f7af8e2e81490186bd361f6c627a8e0a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vishw\.gradle\caches\transforms-3\f7af8e2e81490186bd361f6c627a8e0a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+98                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vishw\.gradle\caches\transforms-3\f7af8e2e81490186bd361f6c627a8e0a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vishw\.gradle\caches\transforms-3\f7af8e2e81490186bd361f6c627a8e0a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+99            </intent-filter>
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vishw\.gradle\caches\transforms-3\f7af8e2e81490186bd361f6c627a8e0a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+101                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vishw\.gradle\caches\transforms-3\f7af8e2e81490186bd361f6c627a8e0a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vishw\.gradle\caches\transforms-3\f7af8e2e81490186bd361f6c627a8e0a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vishw\.gradle\caches\transforms-3\f7af8e2e81490186bd361f6c627a8e0a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+104                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vishw\.gradle\caches\transforms-3\f7af8e2e81490186bd361f6c627a8e0a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vishw\.gradle\caches\transforms-3\f7af8e2e81490186bd361f6c627a8e0a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+105            </intent-filter>
+106        </receiver>
+107    </application>
+108
+109</manifest>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- White circle background plate -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,18 m-30,0 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0" />
+
+    <!-- Green leaf - bold and clean -->
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="
+            M54,24
+            C44,28 36,36 36,46
+            C36,56 44,64 54,66
+            C64,64 72,56 72,46
+            C72,36 64,28 54,24 Z" />
+
+    <!-- Leaf shine highlight -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="
+            M54,26
+            C48,30 44,36 44,42
+            C44,36 50,28 54,26 Z" />
+
+    <!-- Center stem -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M54,28 L54,64" />
+
+    <!-- Left veins -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeAlpha="0.7"
+        android:pathData="M54,36 Q48,40 43,44" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeAlpha="0.7"
+        android:pathData="M54,46 Q47,49 41,50" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeAlpha="0.7"
+        android:pathData="M54,56 Q49,58 45,60" />
+
+    <!-- Right veins -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeAlpha="0.7"
+        android:pathData="M54,36 Q60,40 65,44" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeAlpha="0.7"
+        android:pathData="M54,46 Q61,49 67,50" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeAlpha="0.7"
+        android:pathData="M54,56 Q59,58 63,60" />
+
+    <!-- Gold base arc (market/ground) -->
+    <path
+        android:fillColor="#F9A825"
+        android:pathData="M38,72 Q54,67 70,72 L70,76 Q54,71 38,76 Z" />
+
+    <!-- Gold dot top -->
+    <path
+        android:fillColor="#F9A825"
+        android:pathData="M54,20 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+
+</vector>

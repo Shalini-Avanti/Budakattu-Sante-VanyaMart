@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_leader"
+    app:startDestination="@id/leaderDashboardFragment">
+
+    <fragment
+        android:id="@+id/leaderDashboardFragment"
+        android:name="com.budakattusante.ui.leader.LeaderDashboardFragment"
+        android:label="Dashboard" />
+
+    <!-- Bottom navigation ADD screen -->
+    <fragment
+        android:id="@+id/addProductFragment"
+        android:name="com.budakattusante.ui.leader.AddProductFragment"
+        android:label="Add Product">
+
+        <argument
+            android:name="productId"
+            app:argType="integer"
+            android:defaultValue="-1" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/manageProductsFragment"
+        android:name="com.budakattusante.ui.leader.ManageProductsFragment"
+        android:label="Manage Products">
+
+        <action
+            android:id="@+id/action_manage_to_addProduct"
+            app:destination="@id/editProductFragment" />
+    </fragment>
+
+    <!-- Separate edit destination -->
+    <fragment
+        android:id="@+id/editProductFragment"
+        android:name="com.budakattusante.ui.leader.AddProductFragment"
+        android:label="Edit Product">
+
+        <argument
+            android:name="productId"
+            app:argType="integer"
+            android:defaultValue="-1" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/analyticsFragment"
+        android:name="com.budakattusante.ui.leader.AnalyticsFragment"
+        android:label="Analytics" />
+
+    <!-- FIX: was missing class; now correctly points to LeaderProfileFragment -->
+    <fragment
+        android:id="@+id/leaderProfileFragment"
+        android:name="com.budakattusante.ui.leader.LeaderProfileFragment"
+        android:label="Profile" />
+
+</navigation>

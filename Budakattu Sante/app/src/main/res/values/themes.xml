@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Theme.BudakattsuSante" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/forest_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/forest_green_container</item>
+        <item name="colorOnPrimaryContainer">@color/forest_green_dark</item>
+        <item name="colorSecondary">@color/brown</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorTertiary">@color/honey_gold</item>
+        <item name="colorOnTertiary">@color/black</item>
+        <item name="android:colorBackground">@color/cream</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorError">@color/error</item>
+        <item name="android:statusBarColor">@color/forest_green</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <!-- Splash screen theme (full screen) -->
+    <style name="Theme.BudakattsuSante.Splash" parent="Theme.BudakattsuSante">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@color/forest_green_dark</item>
+    </style>
+
+    <!-- Card style -->
+    <style name="CardStyle" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <!-- Primary Button -->
+    <style name="PrimaryButton" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/forest_green</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Secondary Button -->
+    <style name="SecondaryButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/forest_green</item>
+        <item name="strokeColor">@color/forest_green</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+</resources>

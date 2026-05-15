@@ -1,0 +1,6 @@
+com.budakattusante.test.app-core-1.5.0-0 C:\Users\vishw\.gradle\caches\transforms-3\0c7846c23ed3dce33770f1deaea1cc4b\transformed\core-1.5.0\res
+com.budakattusante.test.app-annotation-experimental-1.3.1-1 C:\Users\vishw\.gradle\caches\transforms-3\4affc14fd0f9ea0a0cd7b6bbbfbcdb4f\transformed\annotation-experimental-1.3.1\res
+com.budakattusante.test.app-androidTest-2 C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\build\generated\res\resValues\androidTest\debug
+com.budakattusante.test.app-mergeDebugAndroidTestResources-3 C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.budakattusante.test.app-mergeDebugAndroidTestResources-4 C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.budakattusante.test.app-merged_res-5 C:\Users\vishw\Downloads\BudakattsuSante\BudakattsuSante\app\build\intermediates\merged_res\debugAndroidTest

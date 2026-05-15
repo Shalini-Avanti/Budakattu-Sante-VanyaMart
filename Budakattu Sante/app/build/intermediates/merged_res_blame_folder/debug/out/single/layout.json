@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "com.budakattusante.app-mergeDebugResources-51:/layout/fragment_add_product.xml",
+        "source": "com.budakattusante.app-main-54:/layout/fragment_add_product.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-mergeDebugResources-51:/layout/fragment_profile.xml",
+        "source": "com.budakattusante.app-main-54:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-mergeDebugResources-51:/layout/fragment_preorder.xml",
+        "source": "com.budakattusante.app-main-54:/layout/fragment_preorder.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-mergeDebugResources-51:/layout/activity_login.xml",
+        "source": "com.budakattusante.app-main-54:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-mergeDebugResources-51:/layout/activity_register.xml",
+        "source": "com.budakattusante.app-main-54:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-mergeDebugResources-51:/layout/item_order.xml",
+        "source": "com.budakattusante.app-main-54:/layout/item_order.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-mergeDebugResources-51:/layout/fragment_leader_dashboard.xml",
+        "source": "com.budakattusante.app-main-54:/layout/fragment_leader_dashboard.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-mergeDebugResources-51:/layout/activity_main.xml",
+        "source": "com.budakattusante.app-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-mergeDebugResources-51:/layout/item_product.xml",
+        "source": "com.budakattusante.app-main-54:/layout/item_product.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-mergeDebugResources-51:/layout/fragment_manage_products.xml",
+        "source": "com.budakattusante.app-main-54:/layout/fragment_manage_products.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-mergeDebugResources-51:/layout/fragment_order_history.xml",
+        "source": "com.budakattusante.app-main-54:/layout/fragment_order_history.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-mergeDebugResources-51:/layout/item_manage_product.xml",
+        "source": "com.budakattusante.app-main-54:/layout/item_manage_product.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-mergeDebugResources-51:/layout/activity_leader.xml",
+        "source": "com.budakattusante.app-main-54:/layout/activity_leader.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-mergeDebugResources-51:/layout/activity_splash.xml",
+        "source": "com.budakattusante.app-main-54:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-mergeDebugResources-51:/layout/fragment_analytics.xml",
+        "source": "com.budakattusante.app-main-54:/layout/fragment_analytics.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-mergeDebugResources-51:/layout/fragment_product_detail.xml",
+        "source": "com.budakattusante.app-main-54:/layout/fragment_product_detail.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-mergeDebugResources-51:/layout/fragment_product_list.xml",
+        "source": "com.budakattusante.app-main-54:/layout/fragment_product_list.xml"
+    },
+    {
+        "merged": "com.budakattusante.app-mergeDebugResources-51:/layout/fragment_buyer_home.xml",
+        "source": "com.budakattusante.app-main-54:/layout/fragment_buyer_home.xml"
+    }
+]

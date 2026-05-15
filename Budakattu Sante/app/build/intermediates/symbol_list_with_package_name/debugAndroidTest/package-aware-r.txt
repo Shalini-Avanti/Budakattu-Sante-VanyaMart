@@ -1,0 +1,3 @@
+com.budakattusante.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

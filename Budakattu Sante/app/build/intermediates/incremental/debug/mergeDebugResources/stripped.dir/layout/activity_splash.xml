@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B5E20">
+
+    <!-- Top-right large soft circle -->
+    <View
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:background="@drawable/splash_circle"
+        android:alpha="0.07"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="-80dp"
+        android:layout_marginEnd="-80dp" />
+
+    <!-- Bottom-left soft circle -->
+    <View
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:background="@drawable/splash_circle"
+        android:alpha="0.05"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="-70dp"
+        android:layout_marginStart="-70dp" />
+
+    <!-- Outer glow ring -->
+    <View
+        android:id="@+id/vRing"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@drawable/splash_ring"
+        android:alpha="0.07"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Icon inside ring -->
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_leaf"
+        app:layout_constraintTop_toTopOf="@id/vRing"
+        app:layout_constraintBottom_toBottomOf="@id/vRing"
+        app:layout_constraintStart_toStartOf="@id/vRing"
+        app:layout_constraintEnd_toEndOf="@id/vRing" />
+
+    <!-- App name Kannada -->
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ಬುಡಕಟ್ಟು ಸಂತೆ"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.03"
+        android:layout_marginTop="28dp"
+        app:layout_constraintTop_toBottomOf="@id/vRing"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- English subtitle -->
+    <TextView
+        android:id="@+id/tvTagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRIBAL MARKETPLACE"
+        android:textColor="#F9A825"
+        android:textSize="12sp"
+        android:letterSpacing="0.3"
+        android:textAllCaps="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAppName"
+        android:layout_marginTop="8dp" />
+
+    <!-- Thin gold divider -->
+    <View
+        android:id="@+id/vLine"
+        android:layout_width="50dp"
+        android:layout_height="1.5dp"
+        android:background="#F9A825"
+        android:alpha="0.5"
+        app:layout_constraintTop_toBottomOf="@id/tvTagline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp" />
+
+    <!-- Kannada tagline bottom -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ಕಾಡಿನಿಂದ ನಿಮ್ಮ ಮನೆಗೆ"
+        android:textColor="#AAFFFFFF"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="72dp" />
+
+    <!-- Animated dots -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="● ● ●"
+        android:textColor="#40FFFFFF"
+        android:textSize="10sp"
+        android:letterSpacing="0.6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="36dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
